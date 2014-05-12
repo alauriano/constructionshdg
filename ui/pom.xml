@@ -7,9 +7,7 @@
     <artifactId>common</artifactId>
     <version>0.0.1-SNAPSHOT</version>
   </parent>
-  <groupId>ca.constructions.hdg</groupId>
   <artifactId>ui</artifactId>
-  <version>0.0.1-SNAPSHOT</version>
   <packaging>war</packaging>
   <name>ui Jersey Webapp</name>
   <properties>
@@ -17,37 +15,9 @@
   </properties>
   <dependencies>
     <dependency>
-      <groupId>com.sun.jersey</groupId>
-      <artifactId>jersey-server</artifactId>
-      <version>${jersey-version}</version>
-    </dependency>
-    <dependency>
-      <groupId>com.sun.jersey</groupId>
-      <artifactId>jersey-json</artifactId>
-      <version>${jersey-version}</version>
-    </dependency>
-    <dependency>
       <groupId>junit</groupId>
       <artifactId>junit</artifactId>
       <version>4.8.2</version>
-      <scope>test</scope>
-    </dependency>
-    <dependency>
-      <groupId>com.sun.jersey</groupId>
-      <artifactId>jersey-client</artifactId>
-      <version>${jersey-version}</version>
-      <scope>test</scope>
-    </dependency>
-    <dependency>
-      <groupId>org.glassfish.distributions</groupId>
-      <artifactId>web-all</artifactId>
-      <version>10.0-build-20080430</version>
-      <scope>test</scope>
-    </dependency>
-    <dependency>
-      <groupId>org.glassfish.embedded</groupId>
-      <artifactId>gf-embedded-api</artifactId>
-      <version>1.0-alpha-4</version>
       <scope>test</scope>
     </dependency>
   </dependencies>
@@ -80,10 +50,6 @@
           <source>1.6</source>
           <target>1.6</target>
         </configuration>
-      </plugin>
-      <plugin>
-        <groupId>org.glassfish</groupId>
-        <artifactId>maven-glassfish-plugin</artifactId>
       </plugin>
     </plugins>
   </build>
