@@ -2,7 +2,7 @@
 @font-face
 	{
 	font-family: algeriuscapsnr;
-	src: url(../fonts/copyfonts.com_a-algeriuscapsnr.ttf);
+	src: url(../../fonts/copyfonts.com_a-algeriuscapsnr.ttf);
 	}
 	
 body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,textarea,p,blockquote,th,td{margin:0;padding:0;}table{border-collapse:collapse;border-spacing:0;}fieldset,img{border:0;}address,caption,dfn,th,var{font-style:normal;font-weight:normal;}li{list-style:none;}caption,th{text-align:left;}h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal;}
@@ -24,7 +24,7 @@ width: 940px;
 float: left;
 }
 
-.logo{
+.logo{ 
 margin: 0 auto 60px auto;
 width: 360px;
 text-align: center;
@@ -35,12 +35,14 @@ width: 500px;
 height: 70px;
 margin: 44px auto 5px auto;
 border-radius: 50%;
-/* background: #fff; 
+/*font-family:algeriuscapsnr;
+background: #fff; 
 color: #68b2b1; */
 text-align: center;
 padding-top: 25px;
 font-size: 40px;
 color: #7F7F7F;
+text-shadow: 0px 1px 0px white;
 }
 
 .logo h2{

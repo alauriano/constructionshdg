@@ -1,3 +1,10 @@
+
+@font-face
+	{
+	font-family: algeriuscapsnr;
+	src: url(../../fonts/copyfonts.com_a-algeriuscapsnr.ttf);
+	}
+	
 body {
   padding-top: 20px;
 }
